@@ -21,7 +21,7 @@ select {
 	border: 0 !important;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background-image: url(../img/downarrow.jpg);
+	background-image: url("img/downarrow.jpg");
 	background-position: 299px 15px;
 	background-repeat: no-repeat;
 	background-size: 13px 5px;

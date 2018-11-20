@@ -1,7 +1,7 @@
 /* section 1 */
 
 #section1 {
-	background-image: url("../img/intro-background.jpg");
+	background: url(../img/intro-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -119,31 +119,31 @@ wrapper  p {
 
 /* section 2 */
 #section2 .image {
-	background-image: url("../img/facial.jpg");
+	background-image: url(../img/facial.jpg);
 }
 
 #section2 .content {
-	background-image: url("../img/frame_1.png");
+	background-image: url(../img/frame_1.png  );
 }
 
 /* section 3 */
 #section3 .image {
-	background-image: url("../img/massage.jpg");
+	background-image: url(../img/massage.jpg);
 	left: 50%;
 }
 
 #section3 .content {
-	background-image: url("../img/frame_2.png");
+	background-image: url(../img/frame_2.png);
 	left: 0;
 }
 
 /* section 4 */
 #section4 .image {
-	background-image: url("../img/hotstone.jpg");
+	background-image: url(../img/hotstone.jpg);
 }
 
 #section4 > .content {
-	background-image: url("../img/frame_3.png");
+	background-image: url(../img/frame_3.png);
 }
 
 @media only screen and (max-width: 1300px) {
