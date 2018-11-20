@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Yuki Spa</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/booknow.css">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+	<a href="index.html"><img id="company_logo" src="img/icon.png" /></a>
+    <ul>
+            <li><a id="services" class="nav" href="service.html">Services</a></li>
+            <li><a id="contact" class="nav" href="contact.html">Contact</a></li>
+            <li><a id="book" href="booknow.html" class="button nav">Book Now</a></li>
+    </ul>
+</header>
+
+<section id="content1_booknow">
+	<p class="title">Appointment Request</p>
+    <p>We will email you once we received your request.</p>
+    <form>    
+        <input type="text" name="fname" value="First Name" /><br>
+        <input type="text" name="lname" value="Last Name" /><br>   
+        <input type="text" name="tel" value="Phone" /><br>    
+        <input type="text" name="therapist" value="Preferred Therapist" /><br> 
+        <input type="text" name="date" value="Preferred date" /><br>
+        <input type="text" name="date" value="Preferred date" /><br>
+    </form>
+    <select>
+    	<option value="facial">Facial</option>
+        <option value="massage">Massage</option>
+        <option value="hotstone">Hot Stone</option>
+    </select>
+    
+    <form>
+    	<textarea type="text" name="notes">Additional Notes/Requests...</textarea>
+    </form>
+    <button type="submit" id="submit_btn">Submit</button>
+</section>
+
+<footer class="footer_bottom">
+	© 2015 Yuki Spa. All Rights.
+</footer>
+</div>
+</body>
+</html>
